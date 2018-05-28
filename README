@@ -1,0 +1,18 @@
+An implementation of huffman compression. Linked list and binary trees were implemented by myself.
+Written in C.
+By David Gold
+
+encode -- takes text and compresses it using huffman compression
+decode -- takes text compressed with huffman compression and decompresses it.
+3)
+encode.c -- methods used by encode.
+encode.h -- header for encode
+decode.c -- methods used by decode.
+decode.h --header for decode.
+code.c -- methods used by both decode and encode.
+code.h -- header for code.c
+encode.1 -- man page for encode
+decode.1 -- man page for decode
+
+Problems:
+Output of program is in binary as opposed to being converted to ASCII.
